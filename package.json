@@ -1,0 +1,52 @@
+{
+  "name": "translation-service",
+  "version": "1.0.1",
+  "description": "This README would normally document whatever steps are necessary to get your application up and running.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node ./src/app.ts",
+    "lint": "eslint . --ext .ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/howtoclient/ts-hapi-translation.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "homepage": "https://github.com/howtoclient/ts-hapi-translation",
+  "dependencies": {
+    "@hapi/boom": "^9.1.0",
+    "@hapi/hapi": "^19.1.1",
+    "@hapi/inert": "^6.0.1",
+    "@hapi/vision": "^6.0.0",
+    "@types/boom": "^7.3.0",
+    "csvtojson": "^2.0.10",
+    "dotenv": "^8.2.0",
+    "hapi": "^18.1.0",
+    "hapi-swagger": "^13.0.0",
+    "install-peerdeps": "^2.0.2",
+    "joi": "^14.3.1",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.9.13",
+    "ts-mongoose": "0.0.21",
+    "typesafe-joi": "^2.1.0"
+  },
+  "devDependencies": {
+    "@types/hapi": "^18.0.3",
+    "@types/mongoose": "^5.7.18",
+    "@types/node": "^13.13.5",
+    "@typescript-eslint/eslint-plugin": "^2.31.0",
+    "@typescript-eslint/parser": "^2.31.0",
+    "eslint": "^7.0.0",
+    "husky": "^4.2.5",
+    "ts-node": "^8.10.1",
+    "typescript": "^3.8.3",
+    "typescript-eslint": "0.0.1-alpha.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint"
+    }
+  }
+}
