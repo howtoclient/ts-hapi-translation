@@ -27,7 +27,7 @@
     "hapi-swagger": "^13.0.0",
     "install-peerdeps": "^2.0.2",
     "joi": "^14.3.1",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "mongoose": "^5.9.13",
     "ts-mongoose": "0.0.21",
     "typesafe-joi": "^2.1.0"
